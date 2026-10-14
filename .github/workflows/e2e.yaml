@@ -17,7 +17,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
         with:
-          repository: ewanbrydon-ui/github-actions-course-example-e2e
+          repository: ewanbrydon-ui/gh-actions-course-example-e2e
           ref: main
           token: ${{ secrets.access-token || secrets.GITHUB_TOKEN }}
       - name: Setup node
